@@ -2,6 +2,7 @@
 
 ## Configurations
 * Python gitignore file [python.gitignore](config/python.gitignore)
+* Python header template [python.header](config/python.header)
 
 ## Copy & Move
 ```
