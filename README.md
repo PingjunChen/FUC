@@ -25,4 +25,5 @@ grep -rin <text_pattern> .    # searching plain-text in files of current subdire
 ## Git
 ```
 git push <remote_name> --delete <branch_name>    # delete a remote GIT branch
+git tag -a <tag_name> -m <comment>               # add tag for repository
 ```
