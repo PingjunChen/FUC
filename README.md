@@ -17,6 +17,11 @@ tar -cjvf tar-archive-name.tar.bz2 <source>    # compress folder to tar.bz2
 tar -xjvf tar-archive-name.tar.bz2             # extract a tar.bz2 compressed archive
 ```
 
+## Search
+```
+grep -rin <text_pattern> .    # searching plain-text in files of current subdirectory that matches pattern
+```
+
 ## Git
 ```
 git push <remote_name> --delete <branch_name>    # delete a remote GIT branch
