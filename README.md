@@ -37,5 +37,10 @@ conda create --name env_name python=3.6      # create a new env with specific py
 source activate env_name                     # activate specific env
 source deactivate env_name                   # deactivate specfic env
 conda remove --name env_name --all           # remove a env
+```
 
+## Apache
+```
+sudo service apache2 restart                 # Restart Apache
+tail -n 20 /var/log/apache2/error.log        # Check errorlog
 ```
