@@ -5,6 +5,7 @@
 * [Python header template](config/python.header)
 * [Git configuration file](config/git.config)
 * [SSH login server without password](config/ssh_login_no_passwd.md)
+* [.bashrc configuration](config/bashrc.config)
 
 ## Copy & Move
 ```
