@@ -1,9 +1,10 @@
 # Frequently Used Commands (FUC)
 
 ## Configurations
-* Python gitignore file [python.gitignore](config/python.gitignore)
-* Python header template [python.header](config/python.header)
-* Git configuration file [git.config](config/git.config)
+* [Python gitignore file](config/python.gitignore)
+* [Python header template](config/python.header)
+* [Git configuration file](config/git.config)
+* [SSH login server without password](config/ssh_login_no_passwd.md)
 
 ## Copy & Move
 ```
