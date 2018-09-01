@@ -40,6 +40,10 @@ source deactivate env_name                   # deactivate specfic env
 conda remove --name env_name --all           # remove a env
 ```
 
+## Django
+* [ZappyCode's Django 2 Cheat Sheet](CheatSheets/Django/Django2-Cheat-Sheet.pdf)
+
+
 ## Apache
 ```
 sudo service apache2 restart                 # Restart Apache
