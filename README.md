@@ -7,9 +7,14 @@
 * [SSH login server without password](config/ssh_login_no_passwd.md)
 * [.bashrc configuration](config/bashrc.config)
 
+## Cheat Sheets
+* [ZappyCode's Django 2 cheatsheet](cheatsheets/django/Django2-Cheat-Sheet.pdf)
+* [Virtualenv cheatsheet](cheatsheets/VirtualenvCheatSheet.md)
+* [Conda Env cheatsheet](cheatsheets/CondaEnvCheatSheet.md)
+
 ## Copy & Move
 ```
-gcp <source> <destination>   # copy with progress
+gcp <source> <destination>   # copy with progression bar
 ```
 
 ## Compression
@@ -30,19 +35,6 @@ grep -rin <text_pattern> .    # searching plain-text in files of current subdire
 git push <remote_name> --delete <branch_name>    # delete a remote GIT branch
 git tag -a <tag_name> -m <comment>               # add tag for repository
 ```
-
-## Conda
-```
-conda info --envs                            # list available environments
-conda create --name env_name python=3.6      # create a new env with specific python version
-source activate env_name                     # activate specific env
-source deactivate env_name                   # deactivate specfic env
-conda remove --name env_name --all           # remove a env
-```
-
-## Django
-* [ZappyCode's Django 2 Cheat Sheet](CheatSheets/Django/Django2-Cheat-Sheet.pdf)
-
 
 ## Apache
 ```
