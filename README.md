@@ -11,7 +11,7 @@
 * [ZappyCode's Django 2 cheatsheet](cheatsheets/django/Django2-Cheat-Sheet.pdf)
 * [Virtualenv cheatsheet](cheatsheets/VirtualenvCheatSheet.md)
 * [Conda Env cheatsheet](cheatsheets/CondaEnvCheatSheet.md)
-* [Pandoc cheatsheet](cheatseehts/PandocCheatSheet.md)
+* [Pandoc cheatsheet](cheatsheets/PandocCheatSheet.md)
 
 ## Copy & Move
 ```
