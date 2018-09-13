@@ -26,6 +26,12 @@ tar -cjvf tar-archive-name.tar.bz2 <source>    # compress folder to tar.bz2
 tar -xjvf tar-archive-name.tar.bz2             # extract a tar.bz2 compressed archive
 ```
 
+## Counting files
+```
+ls -ls *.<ext> | wc -l                     # Number of files is less
+find -type f -name '*.<ext>'  | wc -l      # More than 100, 000 files 
+```
+
 ## Search
 ```
 grep -rin <text_pattern> .    # searching plain-text in files of current subdirectory that matches pattern
