@@ -43,6 +43,12 @@ git push <remote_name> --delete <branch_name>    # delete a remote GIT branch
 git tag -a <tag_name> -m <comment>               # add tag for repository
 ```
 
+## Docker
+```
+docker ps                                       # list all existing containers
+docker exec -it <container name> /bin/bash      # enter into container
+```
+
 ## Apache
 ```
 sudo service apache2 restart                 # Restart Apache
