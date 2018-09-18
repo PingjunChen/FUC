@@ -6,6 +6,7 @@
 * [Git configuration file](config/git.config)
 * [SSH login server without password](config/ssh_login_no_passwd.md)
 * [.bashrc configuration](config/bashrc.config)
+* [fstab configuration](config/fstab.config)
 
 ## Cheat Sheets
 * [ZappyCode's Django 2 cheatsheet](cheatsheets/django/Django2-Cheat-Sheet.pdf)
@@ -26,10 +27,13 @@ tar -cjvf tar-archive-name.tar.bz2 <source>    # compress folder to tar.bz2
 tar -xjvf tar-archive-name.tar.bz2             # extract a tar.bz2 compressed archive
 ```
 
-## Counting files
+## File System
 ```
 ls -ls *.<ext> | wc -l                     # Number of files is less
-find -type f -name '*.<ext>'  | wc -l      # More than 100, 000 files 
+find -type f -name '*.<ext>'  | wc -l      # More than 100, 000 files
+du -hs *                                   # check the size of all subdirectories
+du -hs <directory name>                    # check the szie of a certain directory
+df -h                                      # check the usage of file system
 ```
 
 ## Search
