@@ -36,6 +36,11 @@ du -hs <directory name>                    # check the szie of a certain directo
 df -h                                      # check the usage of file system
 ```
 
+## Process
+```
+ps -ef | grep <username> | grep <command> | awk '{print $2}' | xargs kill -9  # kill process with certain conditions 
+```
+
 ## Search
 ```
 grep -rin <text_pattern> .    # searching plain-text in files of current subdirectory that matches pattern
