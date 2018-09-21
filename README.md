@@ -27,7 +27,13 @@ tar -cjvf tar-archive-name.tar.bz2 <source>    # compress folder to tar.bz2
 tar -xjvf tar-archive-name.tar.bz2             # extract a tar.bz2 compressed archive
 ```
 
-## File System
+## User Management
+```
+adduser      # add user with full profile and info (always recommended)
+useradd      # add user with his name only (low level utility, prefer not to use)
+```
+
+## Filesystem
 ```
 ls -ls *.<ext> | wc -l                     # Number of files is less
 find -type f -name '*.<ext>'  | wc -l      # More than 100, 000 files
