@@ -29,8 +29,9 @@ tar -xjvf tar-archive-name.tar.bz2             # extract a tar.bz2 compressed ar
 
 ## User Management
 ```
-adduser      # add user with full profile and info (always recommended)
-useradd      # add user with his name only (low level utility, prefer not to use)
+adduser <username>               # add user with full profile and info (always recommended)
+useradd <username>               # add user with his name only (low level utility, prefer not to use)
+usermod -aG sudo <username>      # add user to sudo group
 ```
 
 ## Filesystem
