@@ -1,0 +1,45 @@
+FROM ubuntu:16.04
+
+MAINTAINER chenpingjun <chenpingjun@gmx.com>
+
+
+#### Essentials: developer tools, build tools, OpenBLAS
+RUN apt-get update && \
+	apt-get install -y apt-utils build-essential vim unzip curl && \
+	apt-get install -y openssh-client wget cmake libopenblas-dev libjpeg-dev zlib1g-dev
+
+
+#### Python3
+RUN apt-get install -y --no-install-recommends python3.5 python3.5-dev python3-pip python3-setuptools && \
+	pip3 install --no-cache-dir Pillow numpy scipy sklearn opencv-python scikit-image pandas matplotlib Cython requests && \
+ 	pip3 install --upgrade pip
+
+#### Jupyter Notebook
+RUN pip3 --no-cache-dir install jupyter && \
+    mkdir /root/.jupyter && \
+    echo "c.NotebookApp.ip = '*'" \
+         "\nc.NotebookApp.open_browser = False" \
+         "\nc.NotebookApp.token = ''" \
+         > /root/.jupyter/jupyter_notebook_config.py
+EXPOSE 8888
+
+
+#### Tensorflow & Keras
+# Tensorflow-CPU
+RUN pip3 install --no-cache-dir --upgrade tensorflow 
+# Expose port for TensorBoard
+EXPOSE 6006
+# Keras
+RUN pip3 install --no-cache-dir --upgrade h5py pydot_ng keras
+
+
+#### PyTorch 0.3.1
+RUN pip3 install http://download.pytorch.org/whl/cpu/torch-0.3.1-cp35-cp35m-linux_x86_64.whl && \
+    pip3 install torchvision
+
+
+#### Workon directory
+RUN mkdir /Coding
+WORKDIR /Coding
+CMD ["/bin/bash"]
+   
