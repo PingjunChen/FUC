@@ -10,10 +10,10 @@
 
 ## Cheat Sheets
 * [ZappyCode's Django 2 cheatsheet](cheatsheets/django/Django2-Cheat-Sheet.pdf)
-* [Virtualenv cheatsheet](cheatsheets/VirtualenvCheatSheet.md)
-* [Conda Env cheatsheet](cheatsheets/CondaEnvCheatSheet.md)
-* [Pandoc cheatsheet](cheatsheets/PandocCheatSheet.md)
-* [Docker cheatsheet](cheatsheets/DockerCheatsheet.md)
+* [Virtualenv cheatsheet](cheatsheets/virtualEnvCheatsheet.md)
+* [Conda Env cheatsheet](cheatsheets/condaEnvCheatsheet.md)
+* [Pandoc cheatsheet](cheatsheets/pandocCheatsheet.md)
+* [Docker cheatsheet](cheatsheets/dockerCheatsheet.md)
 
 ## Copy & Move
 ```
