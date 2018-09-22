@@ -10,6 +10,7 @@ docker build -t <image_name> <Dockerfile_parent_dir>   # create image from Docke
 ```
 $ docker images                          # list available images
 $ docker rmi <image_name> or <image_id>  # remove certain image
+$ docker images purge                    # remove dangling images
 ```
 
 ### Start container
@@ -25,4 +26,13 @@ $ jupyter notebook --ip 0.0.0.0 --no-browser --allow-root    # Run jupyter in co
 $ docker ps                          # list all running containers
 $ docker stop <container_name>       # stop specific container
 $ docker rm <container_name>         # remove specific container
+```
+
+
+### Upload docker image to docker hub
+```
+$ export DOCKER_ID_USER="<user_name>"                    # set docker hub username
+$ docker login                                           # login to docker hub
+$ docker tag <image_name> $DOCKER_ID_USER/<image_name>   # tag the image 
+$ docker push $DOCKER_ID_USER/<image_name>               # push to docker cloud
 ```
