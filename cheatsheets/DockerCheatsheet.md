@@ -1,6 +1,6 @@
 # Docker CheatSheet
 
-### Create image from Dockerfile
+### Create image from [Dockerfile](docker/Dockerfile.yaml)
 ```
 docker build -t <image_name> <Dockerfile_parent_dir>   # create image from Dockerfile 
 
