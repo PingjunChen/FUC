@@ -13,6 +13,7 @@
 * [Virtualenv cheatsheet](cheatsheets/VirtualenvCheatSheet.md)
 * [Conda Env cheatsheet](cheatsheets/CondaEnvCheatSheet.md)
 * [Pandoc cheatsheet](cheatsheets/PandocCheatSheet.md)
+* [Docker cheatsheet](cheatsheets/DockerCheatsheet.md)
 
 ## Copy & Move
 ```
@@ -59,12 +60,6 @@ grep -rin <text_pattern> .    # searching plain-text in files of current subdire
 ```
 git push <remote_name> --delete <branch_name>    # delete a remote GIT branch
 git tag -a <tag_name> -m <comment>               # add tag for repository
-```
-
-## Docker
-```
-docker ps                                       # list all existing containers
-docker exec -it <container name> /bin/bash      # enter into container
 ```
 
 ## Apache
