@@ -15,6 +15,7 @@
 * [Pandoc cheatsheet](cheatsheets/pandocCheatsheet.md)
 * [Docker cheatsheet](cheatsheets/dockerCheatsheet.md)
 * [tmux cheatsheet](cheatsheets/tmuxCheatsheet.md)
+* [sftp cheatsheet](cheatsheets/sftpCheatsheet.md)
 
 ## Copy & Move
 ```
