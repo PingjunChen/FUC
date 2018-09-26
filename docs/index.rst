@@ -10,29 +10,24 @@ The documentation for `FUC`_ is mainly organized by sections.
 * :ref:`cheatsheet-docs`
 * :ref:`about-docs`
 
+
 .. _config-docs:
 
 .. toctree::
   :maxdepth: 2
-  :caption: Common configurations for Ubuntu
+  :caption: Configurations
 
   bashrc
-  fstab
-  git
-  ssh
 
 
 .. _cheatsheet-docs:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Cheatsheets of commonly used tools
+   :caption: Cheatsheets
 
    sftp
-   tmux
-   Docker
-   Conda
-   Pandoc
+
 
 .. _about-docs:
 
