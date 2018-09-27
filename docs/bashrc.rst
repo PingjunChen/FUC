@@ -18,6 +18,13 @@ Or define a new variable first, then use the new variable.
 
 :code:`export PATH=${VARNAME}:${PATH}`
 
+Set alias
+--------
+alias examples
+
+:code:`alias apt-get='sudo apt-get'`
+
+:code:`alias ls='ls --color=auto'`
 
 Take effect
 --------
