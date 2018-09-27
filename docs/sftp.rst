@@ -19,4 +19,20 @@ Download file to local machine.
 :code:`$ get <server_path> <local_path>`
 
 Upload local file to server.
+
 :code:`$ get <local_path> <server_path>`
+
+Command
+-----------------
+Command for local host.
+
+:code:`$ !<command>`
+
+Command for server.
+
+:code:`$ <command>`
+
+Exit server
+-----------------
+exit from server to local machine.
+:code:`$ bye`
