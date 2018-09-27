@@ -10,7 +10,7 @@ Login to user home directory of the server.
 
 Login to specific directory of the server.
 
-:code:`sftp <user_name>@<server_ip>:<remote_dir>`
+:code:`$ sftp <user_name>@<server_ip>:<remote_dir>`
 
 File transfer
 -----------------
