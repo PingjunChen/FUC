@@ -1,4 +1,7 @@
-## Install tmux
+# tmux
+[tmux](https://github.com/tmux/tmux) is a terminal multiplexer: it enables a number of terminals to be created, accessed, and controlled from a single screen. tmux may be detached from a screen and continue running in the background, then later reattached.
+
+## Installation
 ```
 $ sudo apt-get install tmux
 ```
@@ -8,17 +11,17 @@ $ sudo apt-get install tmux
 $ tmux ls
 ```
 
-## Start a new session
+## Start new session
 ```
 tmux new -s <session_name>
 ```
 
-## Attach to a sessioin
+## Attach to sessioin
 ```
 tmux a -t <session_name>
 ```
 
-## Kill a session
+## Kill session
 ```
 tmux kill-session  -t <session_name>
 ```
