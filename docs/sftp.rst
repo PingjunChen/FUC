@@ -1,6 +1,6 @@
 sftp
 =================
-SSH File Transfer Protocol, a network protocol used for secure file transfer over secure shell.
+`SSH File Transfer Protocol <https://www.ssh.com/ssh/sftp>`_, a network protocol used for secure file transfer over secure shell.
 
 Login to server
 -----------------
@@ -34,5 +34,6 @@ Command for server.
 
 Exit server
 -----------------
-exit from server to local machine.
+Exit from server to local machine.
+
 :code:`$ bye`
