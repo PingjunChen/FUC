@@ -18,6 +18,9 @@ The documentation for `FUC`_ is mainly organized by sections.
   :caption: Configurations
 
   bashrc
+  ssh
+  fstab
+  git
 
 
 .. _cheatsheet-docs:
@@ -27,6 +30,10 @@ The documentation for `FUC`_ is mainly organized by sections.
    :caption: Cheatsheets
 
    sftp
+   tmux
+   docker
+   conda_env
+   pandoc
 
 
 .. _about-docs:
