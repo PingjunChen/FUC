@@ -1,4 +1,6 @@
-# sftp CheatSheet
+# sftp
+[SSH File Transfer Protocol](https://www.ssh.com/ssh/sftp/), a network protocol used for secure file transfer over secure shell.
+
 ### Login to server
 ```
 $ sftp <user_name>@<server_ip>                  # login to default home directory of the server
