@@ -4,5 +4,19 @@ SSH File Transfer Protocol, a network protocol used for secure file transfer ove
 
 Login to server
 -----------------
-* login to user home directory of the server.
+Login to user home directory of the server.
+
 :code:`$ sftp <user_name>@<server_ip>`
+
+Login to specific directory of the server.
+
+:code:`sftp <user_name>@<server_ip>:<remote_dir>`
+
+File transfer
+-----------------
+Download file to local machine.
+
+:code:`$ get <server_path> <local_path>`
+
+Upload local file to server.
+:code:`$ get <local_path> <server_path>`
