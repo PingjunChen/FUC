@@ -3,8 +3,8 @@ Welcome to FUC's documentation!
 
 The documentation for `FUC <https://github.com/PingjunChen/FUC>`_ is mainly organized by sections.
 
-
 * :ref:`cheatsheet-docs`
+* :ref:`command-docs`
 * :ref:`config-docs`
 * :ref:`about-docs`
 
@@ -22,11 +22,24 @@ The documentation for `FUC <https://github.com/PingjunChen/FUC>`_ is mainly orga
    pandoc
 
 
+.. _command-docs:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Commands
+
+   compression
+   usermanagement
+   filesystem
+   apache
+   gitcmd
+
+
 .. _config-docs:
 
 .. toctree::
   :maxdepth: 2
-  :caption: Configurations
+  :caption: Configs
 
   bashrc
   ssh
