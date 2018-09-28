@@ -1,2 +1,2 @@
-Conda environment management
+Conda env
 ========

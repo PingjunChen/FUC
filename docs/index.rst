@@ -1,26 +1,12 @@
 Welcome to FUC's documentation!
 ===============================
 
-The documentation for `FUC`_ is mainly organized by sections.
-
-.. _FUC: https://github.com/PingjunChen/FUC
+The documentation for `FUC <https://github.com/PingjunChen/FUC>`_ is mainly organized by sections.
 
 
-* :ref:`config-docs`
 * :ref:`cheatsheet-docs`
+* :ref:`config-docs`
 * :ref:`about-docs`
-
-
-.. _config-docs:
-
-.. toctree::
-  :maxdepth: 2
-  :caption: Configurations
-
-  bashrc
-  ssh
-  fstab
-  git
 
 
 .. _cheatsheet-docs:
@@ -34,6 +20,18 @@ The documentation for `FUC`_ is mainly organized by sections.
    docker
    conda_env
    pandoc
+
+
+.. _config-docs:
+
+.. toctree::
+  :maxdepth: 2
+  :caption: Configurations
+
+  bashrc
+  ssh
+  fstab
+  git
 
 
 .. _about-docs:
