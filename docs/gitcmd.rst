@@ -1,2 +1,2 @@
-Git Command
+git command
 ========

@@ -1,2 +1,2 @@
-Compression
+compression
 ========

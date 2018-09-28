@@ -44,7 +44,7 @@ The documentation for `FUC <https://github.com/PingjunChen/FUC>`_ is mainly orga
   bashrc
   ssh
   fstab
-  git
+  gitcfg
 
 
 .. _about-docs:
