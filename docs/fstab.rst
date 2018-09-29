@@ -11,6 +11,7 @@ Add following line to the end of **fstab** file.
 :code:`<partition> <mount_point> auto auto,user,rw 0 0`
 
 Following are two examples
+
 :code:`/dev/sdc1 /data/.data1 auto auto,user,rw 0 0`
 
 :code:`/dev/sdd1 /data/.data2 auto auto,user,rw 0 0`
@@ -27,4 +28,5 @@ Install mhddfs
 
 Join multiple partitions
 
+:code:`mkdir /data/main`
 :code:`mhddfs#/data/.data1,/data/.data2 /data/main fuse defaults,allow_other 0 0`
