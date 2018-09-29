@@ -7,7 +7,7 @@ A collection of useful .gitignore templates
 Python .gitignore example
 --------
 
-.. code-block:: 
+.. code-block:: latex
 
     # File
 
