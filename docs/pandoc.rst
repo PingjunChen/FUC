@@ -24,6 +24,7 @@ Convert markdown to tex:
 Convert markdown to docx:
 
 :code:`$ pandoc test1.md -s -o test1.docx`
+
 Convert markdown to pdf:
 
 :code:`$ pandoc test1.md -s -o test1.pdf`
