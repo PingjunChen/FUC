@@ -1,5 +1,7 @@
 django 2
 ========
+`Django <https://www.djangoproject.com/>`_ is a high-level Python Web framework
+that encourages rapid development and clean, pragmatic design.
 
 Create project
 --------
