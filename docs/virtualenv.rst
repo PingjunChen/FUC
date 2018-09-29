@@ -9,14 +9,14 @@ Installation
 Create virtual environment
 --------
 
-:code:`$ virtualenv -p python3 venv'
+:code:`$ virtualenv -p python3 venv`
 
 Activate the environment
 --------
 
-:code:`$ source venv/bin/activate'
+:code:`$ source venv/bin/activate`
 
 Deactivate the environment
 --------
 
-:code:`$ deactivate'
+:code:`$ deactivate`
