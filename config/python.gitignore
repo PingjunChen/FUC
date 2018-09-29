@@ -1,25 +1,22 @@
-# Files
-.remote-sync.json
+# File
 
 # Folder
-data/
-env/
 
-
-# System Files
+# File List
 .DS_Store
 *.manifest
 MANIFEST
+.remote-sync.json
 
-
-
-# Byte-compiled / optimized / DLL files
+# Folder List
 __pycache__/
-*.py[cod]
-*$py.class
+data/
+build/
+dist/
+venv/
+env/
+.ipynb_checkpoints/
 
-# C extensions
+# File with specific suffix
 *.so
-
-# Jupyter Notebook
-.ipynb_checkpoints
+*.py[cod]
