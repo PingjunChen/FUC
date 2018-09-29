@@ -5,8 +5,9 @@
 A collection of useful .gitignore templates
 
 Python .gitignore example
+--------
 
-.. code-block::
+.. code-block:: 
 
     # File
 
@@ -30,4 +31,3 @@ Python .gitignore example
     # File with specific suffix
     *.so
     *.py[cod]
-    
