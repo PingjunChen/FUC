@@ -1,7 +1,8 @@
 Welcome to FUC's documentation!
 ===============================
 
-The documentation for `FUC <https://github.com/PingjunChen/FUC>`_ is mainly organized by sections.
+The documentation for `FUC <https://github.com/PingjunChen/FUC>`_ is mainly
+organized by sections.
 
 * :ref:`cheatsheet-docs`
 * :ref:`command-docs`
@@ -15,11 +16,13 @@ The documentation for `FUC <https://github.com/PingjunChen/FUC>`_ is mainly orga
    :maxdepth: 2
    :caption: Cheatsheets
 
-   sftp
-   tmux
-   docker
+   django2
+   virtualenv
    conda_env
    pandoc
+   docker
+   tmux
+   sftp
 
 
 .. _command-docs:
@@ -33,6 +36,7 @@ The documentation for `FUC <https://github.com/PingjunChen/FUC>`_ is mainly orga
    filesystem
    apache
    gitcmd
+   process
 
 
 .. _config-docs:
@@ -41,10 +45,12 @@ The documentation for `FUC <https://github.com/PingjunChen/FUC>`_ is mainly orga
   :maxdepth: 2
   :caption: Configs
 
-  bashrc
-  ssh
-  fstab
+  git_ignore
+  python_header
   gitcfg
+  ssh
+  bashrc
+  fstab
 
 
 .. _about-docs:
