@@ -26,7 +26,10 @@ Install mhddfs
 
 :code:`$ sudo apt-get install mhddfs`
 
-Join multiple partitions
+Create folder for merging
 
 :code:`mkdir /data/main`
+
+Add the following line to the end of fstab
+
 :code:`mhddfs#/data/.data1,/data/.data2 /data/main fuse defaults,allow_other 0 0`
