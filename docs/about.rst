@@ -1,4 +1,4 @@
-About FUC
+about FUC
 ==========
 
 Frequently Used Commands (`FUC <https://github.com/PingjunChen/FUC>`_) is a

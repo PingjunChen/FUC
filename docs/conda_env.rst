@@ -1,2 +1,2 @@
-Conda env
+conda env
 ========
