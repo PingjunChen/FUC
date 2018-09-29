@@ -43,12 +43,14 @@ List container
 :code:`$ docker ps`
 
 Remove container
+
 :code:`$ docker stop <container_name>`
 
 :code:`$ docker rm <container_name>`
 
 Upload image to docker hub
 --------
+
 Set docker hub username
 
 :code:`$ export DOCKER_ID_USER="user_name"`
