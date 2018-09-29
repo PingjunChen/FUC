@@ -48,7 +48,7 @@ organized by sections.
   git_ignore
   python_header
   gitcfg
-  ssh
+  ssh_nopasswd
   bashrc
   fstab
 
