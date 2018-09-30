@@ -1,7 +1,7 @@
 apache
 ========
 
-## Restart
+Restart
 --------
 :code:`$ service apache2 restart`
 
