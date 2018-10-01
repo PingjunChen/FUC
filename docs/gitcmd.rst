@@ -23,3 +23,11 @@ Add tag to current submit
 List all tags
 
 :code:`$ git tag -l`
+
+Delete local tag
+
+:code:`$ git tag -d <tag_name> `
+
+Delete remote tag
+
+:code:`$ git push --delete origin <tag_name>`
