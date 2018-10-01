@@ -1,6 +1,6 @@
 # Frequently Used Commands (FUC)
 
-You can also check the [Documentation](https://fuc.readthedocs.io) for FUC project.
+Here is the [documentation](https://fuc.readthedocs.io) for this project.
 
 ## CheatSheets
 * [Django2 cheatsheet](cheatsheets/django2Cheatsheet.md)
