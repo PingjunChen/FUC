@@ -2,7 +2,7 @@ Welcome to FUC's documentation!
 ===============================
 
 The documentation for `FUC <https://github.com/PingjunChen/FUC>`_ is mainly
-organized by sections.
+organized by following four sections.
 
 * :ref:`cheatsheet-docs`
 * :ref:`command-docs`
