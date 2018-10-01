@@ -1,9 +1,9 @@
 # Frequently Used Commands (FUC)
 
-You can also check the [https://fuc.readthedocs.io](https://fuc.readthedocs.io) for FUC.
+You can also check the [Documentation](https://fuc.readthedocs.io) for FUC project.
 
 ## CheatSheets
-* [ZappyCode's Django2 cheatsheet](cheatsheets/django/Django2-Cheat-Sheet.pdf)
+* [Django2 cheatsheet](cheatsheets/django2Cheatsheet.md)
 * [Virtualenv cheatsheet](cheatsheets/virtualEnvCheatsheet.md)
 * [CondaEnv cheatsheet](cheatsheets/condaEnvCheatsheet.md)
 * [Pandoc cheatsheet](cheatsheets/pandocCheatsheet.md)
