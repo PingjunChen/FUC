@@ -21,7 +21,7 @@ You can also check the [Documentation](https://fuc.readthedocs.io) for FUC proje
 
 ## Configurations
 * [Python gitignore file](config/python.gitignore)
-* [Python header template](config/python.header)
+* [Python header template](config/python_head.py)
 * [Git configuration file](config/git.config)
 * [SSH login server without password](config/ssh_login_no_passwd.md)
 * [.bashrc configuration](config/bashrc.config)
