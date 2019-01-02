@@ -3,7 +3,7 @@
 ![](https://img.shields.io/github/license/PingjunChen/FUC.svg)
 ![](https://img.shields.io/github/stars/PingjunChen/FUC.svg)
 
-This repo covers most commonly used cheatsheets, commands, and configs for Ubuntu. The [documentation](https://fuc.readthedocs.io) is more clear to refer. If you find FUC useful, please don't stingy your `star` for this repo.
+This repo covers most commonly used cheatsheets, commands, and configs for Ubuntu. The [documentation](https://fuc.readthedocs.io) is more clear to refer. If you find FUC to be helpful, please `star` this repo.
 
 ## CheatSheets
 * [Django2 cheatsheet](cheatsheets/django2Cheatsheet.md)
