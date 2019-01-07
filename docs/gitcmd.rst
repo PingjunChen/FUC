@@ -26,7 +26,7 @@ List all tags
 
 Delete local tag
 
-:code:`$ git tag -d <tag_name> `
+:code:`$ git tag -d <tag_name>`
 
 Delete remote tag
 
