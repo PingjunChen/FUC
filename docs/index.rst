@@ -23,6 +23,7 @@ organized by following four sections.
    docker
    tmux
    sftp
+   sshfs
 
 
 .. _command-docs:
