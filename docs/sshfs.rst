@@ -12,6 +12,7 @@ Create connection
 --------
 In server machine, link server directory to local directory. Note to avoid using
 soft link for both local and server directory.
+
 :code:`$ sshfs -o nonempty <username>@<local_ip>:local_dir server_dir`
 
 List sshfs mounting points
