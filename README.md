@@ -3,24 +3,8 @@
 ![](https://img.shields.io/github/license/PingjunChen/FUC.svg)
 ![](https://img.shields.io/github/stars/PingjunChen/FUC.svg)
 
-This repo covers most commonly used cheatsheets, commands, and configs for Ubuntu. The [documentation](https://fuc.readthedocs.io) is more clear to refer. If you find FUC to be helpful, please `star` this repo.
+This repo covers most commonly used cheatsheets, commands, and configs for Ubuntu. Go to  [documentation](https://fuc.readthedocs.io) for reference. If you find FUC to be helpful, please `star` this repo.
 
-## CheatSheets
-* [Django2 cheatsheet](cheatsheets/django2Cheatsheet.md)
-* [Virtualenv cheatsheet](cheatsheets/virtualEnvCheatsheet.md)
-* [CondaEnv cheatsheet](cheatsheets/condaEnvCheatsheet.md)
-* [Pandoc cheatsheet](cheatsheets/pandocCheatsheet.md)
-* [Docker cheatsheet](cheatsheets/dockerCheatsheet.md)
-* [tmux cheatsheet](cheatsheets/tmuxCheatsheet.md)
-* [sftp cheatsheet](cheatsheets/sftpCheatsheet.md)
-
-## Commands
-* [Compression](commands/compression.md)
-* [UserManagement](commands/user.md)
-* [Filesystem](commands/filesystem.md)
-* [Apache](commands/apache.md)
-* [GitCmd](commands/git_cmd.md)
-* [Process](commands/process.md)
 
 ## Configurations
 * [Python gitignore file](config/python.gitignore)
@@ -31,8 +15,8 @@ This repo covers most commonly used cheatsheets, commands, and configs for Ubunt
 * [fstab configuration](config/fstab.config)
 
 
-## Contributors
-See the [AUTHORS.md](AUTHORS.md) file for a complete list of contributors to the project.
+<!-- ## Contributors
+See the [AUTHORS.md](AUTHORS.md) file for a complete list of contributors to the project. -->
 
 ## Contributing
 ``FUC`` is an open source project and anyone is welcome to contribute. An easy way to get started is by suggesting a new enhancement on the [Issues](https://github.com/PingjunChen/FUC/issues). If you have found a bug, then either report this through [Issues](https://github.com/PingjunChen/FUC/issues), or even better, make a fork of the repository, fix the bug and then create a [Pull Requests](https://github.com/PingjunChen/FUC/pulls) to get the fix into the master branch.
