@@ -22,3 +22,10 @@ List sshfs mounting points
 Unmount the connection
 --------
 :code:`$ sudo umount server_dir`
+
+If sudden problems happen, use fusermount instead:
+--------
+:code:`$ fusermount -u server_dir`
+
+
+
