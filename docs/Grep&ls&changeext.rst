@@ -15,6 +15,5 @@ Grep current process
 
 Change bmp img to png ext
 --------
-:code:`$ for i in *.bmp; do sips -s format png -s formatOptions 70 "${i}" --out "${i%bmp}png"; done`
 :code:`$ for f in *.bmp; do mv -- "$f" "${f%.bmp}.png"; done`
 
