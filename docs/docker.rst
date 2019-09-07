@@ -14,7 +14,7 @@ Install docker
 :code:`$ sudo apt install docker.io`
 
 Add user to docker group
---------
+
 :code:`$ sudo usermod -aG docker $USER`
 
 
