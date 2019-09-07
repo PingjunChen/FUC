@@ -5,13 +5,25 @@ docker
 sysadmins to build, ship, and run distributed applications, whether on laptops,
 data center VMs, or the cloud.
 
-Create **image** from `Dockerfile <https://docs.docker.com/engine/reference/builder/>`_
+
+Docker Installation
 --------
 
-:code:`$ docker build -t <image_name> <Dockerfile_dir>`
+Install docker
+
+:code:`$ sudo apt install docker.io`
+
+Add user to docker group
+--------
+:code:`$ sudo usermod -aG docker $USER`
+
 
 Image management
 --------
+
+Create **image** from `Dockerfile <https://docs.docker.com/engine/reference/builder/>`_
+
+:code:`$ docker build -t <image_name> <Dockerfile_dir>`
 
 List available images
 
