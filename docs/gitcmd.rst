@@ -31,3 +31,11 @@ Delete local tag
 Delete remote tag
 
 :code:`$ git push --delete origin <tag_name>`
+
+
+Credential
+--------
+
+Store credentials
+
+:code:`$ git config --global credential.helper store`
