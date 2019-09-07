@@ -23,7 +23,15 @@ Image management
 
 Create **image** from `Dockerfile <https://docs.docker.com/engine/reference/builder/>`_
 
-:code:`$ docker build -t <image_name> <Dockerfile_dir>`
+:code:`$ docker build -t <image_name>:[tag_name] .`
+
+Save image
+
+:code:`$ docker save <image_name>:[] <image_name>.tar`
+
+Load image
+
+:code:`$ docker load --input <image_name>.tar`
 
 List available images
 
