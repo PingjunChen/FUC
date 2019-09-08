@@ -27,7 +27,7 @@ Create **image** from `Dockerfile <https://docs.docker.com/engine/reference/buil
 
 Save image
 
-:code:`$ docker save <image_name>:[] <image_name>.tar`
+:code:`$ docker save <image_name>:[tag_name] <image_name>.tar`
 
 Load image
 
@@ -56,7 +56,7 @@ Container management
 
 Start container
 
-:code:`$ docker run --name <container_name> --restart always --shm-size 12G -it -p 8888:8888 -v ~/Downloads/:/Coding <image_name>`
+:code:`$ docker run -it --restart always --name <container_name> <image_name>:[tag_name]`
 
 List container
 
@@ -86,3 +86,20 @@ Tag image
 Push to docker cloud
 
 :code:`$ docker push $DOCKER_ID_USER/<image_name>`
+
+
+Nvidia-Docker
+--------
+
+Install nvidia-docker 2.0
+
+.. code-block:: bash
+
+    $ curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -
+    $ distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
+    $ curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | \
+        sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+    $ sudo apt-get update
+    $ sudo apt-get install nvidia-docker2
+    $ sudo pkill -SIGHUP dockerd
+    $ docker run --runtime nvidia --rm nvidia/cuda:9.0-base-ubuntu16.04 nvidia-smi
