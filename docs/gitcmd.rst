@@ -32,7 +32,10 @@ Delete remote tag
 
 :code:`$ git push --delete origin <tag_name>`
 
-REmove big file if commited wrongly
 
-:code:`$ git filter-branch --tree-filter 'rm -rf path/to/your/file' HEAD`
-:code:`$ git push`
+Credential
+--------
+
+Store credentials
+
+:code:`$ git config --global credential.helper store`
