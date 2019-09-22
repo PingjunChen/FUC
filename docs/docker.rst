@@ -25,30 +25,16 @@ Create **image** from `Dockerfile <https://docs.docker.com/engine/reference/buil
 
 :code:`$ docker build -t <image_name>:[tag_name] .`
 
-Save image
+Image management
 
-:code:`$ docker save <image_name>:[tag_name] <image_name>.tar`
+.. code-block:: bash
 
-Load image
-
-:code:`$ docker load --input <image_name>.tar`
-
-List available images
-
-:code:`$ docker images`
-
-Remove image by name
-
-:code:`$ docker rmi <image_name>`
-
-Remove image by id
-
-:code:`$ docker rmi <image_id>`
-
-
-Remove dangling images
-
-:code:`$ docker images purge`
+    $ docker save <image_name>:[tag_name] <image_name>.tar      # save image
+    $ docker load --input <image_name>.tar                      # load image
+    $ docker images                                             # list available images
+    $ docker rmi <image_name>                                   # remove image by name
+    $ docker rmi <image_id>                                     # remove image by id
+    $ docker images purge                                       # remove dangling images
 
 
 Container management
@@ -62,7 +48,7 @@ Start container
     Options:
         -e NVIDIA_VISIBLE_DEVICES=5               # cuda device setting
         -v <local_dir>:<docker_dir>:ro            # map local directory to docker
-        
+
 
 Copy files
 
