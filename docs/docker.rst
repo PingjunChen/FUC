@@ -56,11 +56,13 @@ Container management
 
 Start container
 
-:code:`$ docker run -it --restart always --name <container_name> <image_name>:[tag_name]`
+.. code-block:: bash
 
-List container
-
-:code:`$ docker ps`
+    $ docker run -it --restart always --name <container_name> <image_name>:[tag_name]
+    Options:
+        -e NVIDIA_VISIBLE_DEVICES=5               # cuda device setting
+        -v <local_dir>:<docker_dir>:ro            # map local directory to docker
+        
 
 Copy files
 
