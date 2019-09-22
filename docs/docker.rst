@@ -46,8 +46,11 @@ Start container
 
     $ docker run -it --restart always --name <container_name> <image_name>:[tag_name]
     Options:
-        -e NVIDIA_VISIBLE_DEVICES=5               # cuda device setting
         -v <local_dir>:<docker_dir>:ro            # map local directory to docker
+        --runtime=nvidia                          # expose NVIDIA GPUs
+        -e NVIDIA_VISIBLE_DEVICES=5               # cuda device setting
+        --shm-size 16G                            # set size of shared memory 
+        --rm                                      # remove the file system on the container when it exits
 
 
 Copy files
