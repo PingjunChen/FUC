@@ -69,11 +69,13 @@ Copy files
     $ docker cp <container_name>:<src_dir> <local_dst_dir>  # copy files from docker to local
     $ docker cp <local_src_dir> <container_name>:<dst_dir>  # copy files from local to docker
 
-Remove container
+Container management
 
-:code:`$ docker stop <container_name>`
+.. code-block:: bash
 
-:code:`$ docker rm <container_name>`
+    $ docker ps                         # list all available containers
+    $ docker stop <container_name>      # stop specific container
+    $ docker rm <container_name>        # remove specific stopped container
 
 Upload image to docker hub
 --------
