@@ -62,6 +62,13 @@ List container
 
 :code:`$ docker ps`
 
+Copy files
+
+.. code-block:: bash
+
+    $ docker cp <container_name>:<src_dir> <local_dst_dir>  # copy files from docker to local
+    $ docker cp <local_src_dir> <container_name>:<dst_dir>  # copy files from local to docker
+
 Remove container
 
 :code:`$ docker stop <container_name>`
