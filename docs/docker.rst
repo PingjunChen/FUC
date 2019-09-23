@@ -9,13 +9,10 @@ data center VMs, or the cloud.
 Docker Installation
 --------
 
-Install docker
+.. code-block:: bash
 
-:code:`$ sudo apt install docker.io`
-
-Add user to docker group
-
-:code:`$ sudo usermod -aG docker $USER`
+    $ sudo apt install docker.io        # install docker
+    $ sudo usermod -aG docker $USER     # add user to docker group
 
 
 Image management
@@ -25,30 +22,16 @@ Create **image** from `Dockerfile <https://docs.docker.com/engine/reference/buil
 
 :code:`$ docker build -t <image_name>:[tag_name] .`
 
-Save image
+Image management
 
-:code:`$ docker save <image_name>:[tag_name] <image_name>.tar`
+.. code-block:: bash
 
-Load image
-
-:code:`$ docker load --input <image_name>.tar`
-
-List available images
-
-:code:`$ docker images`
-
-Remove image by name
-
-:code:`$ docker rmi <image_name>`
-
-Remove image by id
-
-:code:`$ docker rmi <image_id>`
-
-
-Remove dangling images
-
-:code:`$ docker images purge`
+    $ docker save <image_name>:[tag_name] <image_name>.tar      # save image
+    $ docker load --input <image_name>.tar                      # load image
+    $ docker images                                             # list available images
+    $ docker rmi <image_name>                                   # remove image by name
+    $ docker rmi <image_id>                                     # remove image by id
+    $ docker images purge                                       # remove dangling images
 
 
 Container management
@@ -56,28 +39,41 @@ Container management
 
 Start container
 
-:code:`$ docker run -it --restart always --name <container_name> <image_name>:[tag_name]`
+.. code-block:: bash
 
-List container
+    $ docker run -it --restart always --name <container_name> <image_name>:[tag_name]
+    Options:
+        -v <local_dir>:<docker_dir>:ro            # map local directory to docker
+        --runtime=nvidia                          # expose NVIDIA GPUs
+        -e NVIDIA_VISIBLE_DEVICES=5               # cuda device setting
+        --shm-size 16G                            # set size of shared memory
+        --rm                                      # remove container file system when exits
 
-:code:`$ docker ps`
 
-Remove container
+Copy files
 
-:code:`$ docker stop <container_name>`
+.. code-block:: bash
 
-:code:`$ docker rm <container_name>`
+    $ docker cp <container_name>:<src_dir> <local_dst_dir>  # copy files from docker to local
+    $ docker cp <local_src_dir> <container_name>:<dst_dir>  # copy files from local to docker
+
+Container management
+
+.. code-block:: bash
+
+    $ docker ps                         # list all available containers
+    $ docker stop <container_name>      # stop specific container
+    $ docker rm <container_name>        # remove specific stopped container
 
 Upload image to docker hub
 --------
 
-Set docker hub username
+Login to docker hub
 
-:code:`$ export DOCKER_ID_USER="user_name"`
+.. code-block:: bash
 
-Login in to docker hub
-
-:code:`$ docker login`
+    $ export DOCKER_ID_USER="user_name"   # set docker hub username
+    $ docker login                        # login in to docker hub
 
 Tag image
 
