@@ -39,3 +39,15 @@ Credential
 Store credentials
 
 :code:`$ git config --global credential.helper store`
+
+
+Remote
+--------
+
+Set up upstream remote
+
+:code:`git remote add upstream https://github.com/repo`
+
+Update local repo
+
+:code:`git pull upstream master`
