@@ -1,7 +1,6 @@
 git command
 ========
 
-
 Delete branch
 --------
 

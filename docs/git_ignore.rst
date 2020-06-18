@@ -1,6 +1,5 @@
 .gitignore
 ========
-
 `https://github.com/github/gitignore <https://github.com/github/gitignore>`_
 A collection of useful .gitignore templates
 
