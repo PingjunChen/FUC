@@ -5,15 +5,17 @@
 
 This repo covers most commonly used cheatsheets, commands, and configs for Ubuntu. Go to  [documentation](https://fuc.readthedocs.io) for reference. If you find FUC to be helpful, please `star` this repo.
 
+## Inspections
+* [Ubuntu system](inspect/sys_info.md)
+* [File system](inspect/filesystem_info.md)
 
 ## Configurations
-* [Python gitignore file](config/python.gitignore)
-* [Python header template](config/python_head.py)
-* [Git configuration file](config/git.config)
-* [SSH login server without password](config/ssh_login_no_passwd.md)
 * [.bashrc configuration](config/bashrc.config)
 * [fstab configuration](config/fstab.config)
-
+* [SSH login server without password](config/ssh_login_no_passwd.md)
+* [Git configuration file](config/git.config)
+* [Python gitignore file](config/python.gitignore)
+* [Python header template](config/python_head.py)
 
 <!-- ## Contributors
 See the [AUTHORS.md](AUTHORS.md) file for a complete list of contributors to the project. -->
