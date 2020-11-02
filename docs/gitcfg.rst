@@ -6,11 +6,11 @@ Git configuration
 
 User name
 
-:code:`$ git config --global user.name "Pingjun Chen"`
+:code:`$ git config --global user.name PingjunChen`
 
 User email
 
-:code:`$ git config --global user.email chenpingjun@gmx.com`
+:code:`$ git config --global user.email pingjunchen@ieee.org`
 
 Editor
 
@@ -18,7 +18,7 @@ Editor
 
 Password
 
-:code:`$ git config --global credential.helper cache`
+:code:`$ git config --global credential.helper wincred`
 
 Default branch
 
