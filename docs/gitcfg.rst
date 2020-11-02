@@ -12,7 +12,6 @@ User email
 
 :code:`$ git config --global user.email chenpingjun@gmx.com`
 
-
 Editor
 
 :code:`$ git config --global core.editor vim`
@@ -24,6 +23,10 @@ Password
 Default branch
 
 :code:`$ git init --initial-branch=main`
+
+Add remote
+
+:code:`$ git remote add origin https://github.com/user/repo.git`
 
 Git alias
 --------
