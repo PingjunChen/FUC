@@ -10,7 +10,7 @@ User name
 
 User email
 
-:code:`$ config --global user.email chenpingjun@gmx.com`
+:code:`$ git config --global user.email chenpingjun@gmx.com`
 
 
 Editor
@@ -20,6 +20,10 @@ Editor
 Password
 
 :code:`$ git config --global credential.helper cache`
+
+Default branch
+
+:code:`$ git init --initial-branch=main`
 
 Git alias
 --------
