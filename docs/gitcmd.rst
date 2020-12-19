@@ -50,3 +50,7 @@ Set up upstream remote
 Update local repo
 
 :code:`git pull upstream master`
+
+Push to upstream
+
+:code:`git push upstream main`
