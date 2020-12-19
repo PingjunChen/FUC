@@ -49,8 +49,8 @@ Set up upstream remote
 
 Update local repo
 
-:code:`git pull upstream master`
+:code:`git pull upstream <branch_name>`
 
 Push to upstream
 
-:code:`git push upstream main`
+:code:`git push upstream <branch_name>`
