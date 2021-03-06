@@ -25,7 +25,6 @@ organized by following four sections.
     tmux
     sftp
     sshfs
-    singularity
     seadragon
 
 

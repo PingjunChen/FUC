@@ -92,12 +92,17 @@ Create docker image tarball
 
     $ docker save <image_name>:<version> -o <image_name>.tar
 
-
 Build singularity from image tarball
 
 .. code-block:: bash
 
     $ singularity build <image_name>.sif docker-archive://<image_name>.tar
+
+Build singularity from DockerHub image
+
+.. code-block:: bash
+
+    $ singularity pull <image_name>.sif docker://<user_name>/<image_name>:<version>
 
 
 Nvidia-Docker
