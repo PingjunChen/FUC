@@ -83,6 +83,23 @@ Push to docker cloud
 :code:`$ docker push $DOCKER_ID_USER/<image_name>:<version>`
 
 
+Convert image to Singularity
+--------
+
+Create docker image tarball
+
+.. code-block:: bash
+
+    $ docker save <image_name>:<version> -o <image_name>.tar
+
+
+Build singularity from image tarball
+
+.. code-block:: bash
+
+    $ singularity build <image_name>.sif docker-archive://<image_name>.tar
+
+
 Nvidia-Docker
 --------
 
