@@ -76,11 +76,11 @@ Login to docker hub
 
 Tag image
 
-:code:`$ docker tag <image_name> $DOCKER_ID_USER/<image_name>`
+:code:`$ docker tag <image_name>:<version> $DOCKER_ID_USER/<image_name>:<version>`
 
 Push to docker cloud
 
-:code:`$ docker push $DOCKER_ID_USER/<image_name>`
+:code:`$ docker push $DOCKER_ID_USER/<image_name>:<version>`
 
 
 Nvidia-Docker
