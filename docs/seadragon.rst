@@ -1,4 +1,4 @@
-Seadragon Cluster
+Seadragon
 ========
 
 `Seadragon <http://hpcweb.mdanderson.org/>`_ is a  supercomputing resource of
@@ -18,8 +18,10 @@ Interactive Running
 
 .. code-block:: bash
 
-    $ busb -Is -q interactive -W 1:00 -M 64 -R rusage[mem=64] –n 4 /bin/bash # cpu interactive
-    $ busb -Is -q gpu-medium -gpu num=1:gmem=16 -W 3:00 -M 64 -R rusage[mem=64] –n 10 /bin/bash # gpu interactive
+    # cpu interactive
+    $ busb -Is -q interactive -W 1:00 -M 64 -R rusage[mem=64] –n 4 /bin/bash
+    # gpu interactive
+    $ busb -Is -q gpu-medium -gpu num=1:gmem=16 -W 3:00 -M 64 -R rusage[mem=64] –n 10 /bin/bash
 
 
 Load Modules
@@ -36,7 +38,7 @@ Start Singularity Instance
 
 .. code-block:: bash
 
-    $ singularity run --nv --bind <local_dir>:<container_dir> <singularity_path> <running_command>
+    $ singularity run --nv --bind <local_dir>:<container_dir> <singularity_path> <program>
 
 
 More Useful Commands
