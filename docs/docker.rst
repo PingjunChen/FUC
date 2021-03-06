@@ -83,7 +83,7 @@ Push to docker cloud
 :code:`$ docker push $DOCKER_ID_USER/<image_name>:<version>`
 
 
-Convert image to Singularity
+Convert image to singularity
 --------
 
 Create docker image tarball
