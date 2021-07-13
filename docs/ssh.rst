@@ -1,4 +1,4 @@
-ssh
+ssh no password
 ========
 
 Login to server without password
