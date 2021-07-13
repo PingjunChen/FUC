@@ -18,11 +18,11 @@ Editor
 
 Password
 
-:code:`$ git config --global credential.helper wincred`
+:code:`$ git config --global credential.helper cache`
 
 Default branch
 
-:code:`$ git init --initial-branch=main`
+:code:`$ git config --global init.defaultBranch main`
 
 Add remote
 
@@ -33,9 +33,9 @@ Git alias
 
 .. code-block:: bash
 
-    git config --global alias.st status
-    git config --global alias.ci commit
     git config --global alias.cm "commit -m"
+    git config --global alias.st status
+    git config --global alias.ci commit    
     git config --global alias.co checkout
     git config --global alias.br branch
     git config --global alias.last "log -1 HEAD"
