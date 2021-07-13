@@ -21,9 +21,9 @@ organized by following four sections.
     tmux
     sftp
     sshfs
+    seadragon
     virtualenv
     conda_env
-    seadragon
 
 
 .. _inspect-docs:
@@ -44,8 +44,8 @@ organized by following four sections.
 
     gitcmd
     usermanagement
-    compression
     process
+    compression
     apache
 
 
