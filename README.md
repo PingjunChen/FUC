@@ -1,9 +1,9 @@
-# Frequently Used Commands (FUC) for ubuntu
+# Frequently Used Commands (FUC)
 [![Documentation Status](https://readthedocs.org/projects/fuc/badge/?version=latest)](https://fuc.readthedocs.io/en/latest/?badge=latest)
 ![](https://img.shields.io/github/license/PingjunChen/FUC.svg)
 ![](https://img.shields.io/github/stars/PingjunChen/FUC.svg)
 
-This repo covers most commonly used cheatsheets, commands, and configs for Ubuntu. Go to  [documentation](https://fuc.readthedocs.io) for reference. If you find FUC to be helpful, please `star` this repo.
+This repo covers most commonly used cheatsheets, commands, and configs for Linux/Ubuntu. Go to  [documentation](https://fuc.readthedocs.io) for reference. If you find FUC to be helpful, please `star` this repo.
 
 ## Inspections
 * [Ubuntu system](inspect/sys_info.md)
