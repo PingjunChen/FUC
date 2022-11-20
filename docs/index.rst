@@ -17,15 +17,13 @@ organized by following four sections.
     :maxdepth: 2
     :caption: Cheatsheets
 
-    django2
-    virtualenv
-    conda_env
-    pandoc
     docker
     tmux
     sftp
     sshfs
     seadragon
+    virtualenv
+    conda_env
 
 
 .. _inspect-docs:
@@ -44,11 +42,11 @@ organized by following four sections.
     :maxdepth: 2
     :caption: Commands
 
-    compression
-    usermanagement
-    apache
     gitcmd
+    usermanagement
     process
+    compression
+    apache
 
 
 .. _config-docs:
@@ -57,12 +55,12 @@ organized by following four sections.
     :maxdepth: 2
     :caption: Configs
 
-    git_ignore
-    python_header
     gitcfg
     ssh
     bashrc
     fstab
+    git_ignore
+    python_header
 
 
 .. _about-docs:

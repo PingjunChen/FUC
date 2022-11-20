@@ -21,6 +21,10 @@ Create **image** from `Dockerfile <https://docs.docker.com/engine/reference/buil
 
 :code:`$ docker build -t <image_name>:[tag_name] .`
 
+Create **image** from a specific Dockerfile
+
+:code:`$ docker build -f <dockerfile_name> -t <image_name>:[tag_name] .`
+
 Image management
 
 .. code-block:: bash
