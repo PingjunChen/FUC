@@ -34,6 +34,7 @@ organized by following four sections.
 
     system_info
     filesystem
+    file_info
 
 
 .. _command-docs:
