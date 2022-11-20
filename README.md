@@ -5,10 +5,6 @@
 
 This repo covers most commonly used cheatsheets, commands, and configs for Linux/Ubuntu. Go to  [documentation](https://fuc.readthedocs.io) for reference. If you find FUC to be helpful, please `star` this repo.
 
-## Inspections
-* [Ubuntu system](inspect/sys_info.md)
-* [File system](inspect/filesystem_info.md)
-
 ## Configurations
 * [Git configuration file](config/git.config)
 * [SSH login server without password](config/ssh_login_no_passwd.md)
