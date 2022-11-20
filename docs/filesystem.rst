@@ -27,3 +27,18 @@ Check size of all subdirectories
 --------
 
 :code:`$ du -hs *`
+
+Searches directory recursively in subdirectories
+--------
+
+:code:`$ find . -type d -name <directory>`
+
+Searches file recursively in subdirectories
+--------
+
+:code:`$ find . -type f -name <file>`
+
+Delete file/directory recursively in subdirectories
+--------
+
+:code:`$ find . -name <file/directory> -exec rm -rf {} \;`
