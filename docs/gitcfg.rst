@@ -18,7 +18,7 @@ Editor
 
 Password
 
-:code:`$ git config --global credential.helper cache`
+:code:`$ git config --global credential.helper store`
 
 Default branch
 
@@ -34,10 +34,7 @@ Git alias
 .. code-block:: bash
 
     git config --global alias.cm "commit -m"
-    git config --global alias.st status
-    git config --global alias.ci commit    
-    git config --global alias.co checkout
     git config --global alias.br branch
-    git config --global alias.last "log -1 HEAD"
-    git config --global alias.aa "add --all"
+    git config --global alias.co checkout
     git config --global alias.cb "checkout -b"
+    git config --global alias.last "log -1 HEAD"
