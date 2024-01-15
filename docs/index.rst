@@ -18,12 +18,10 @@ organized by following four sections.
     :caption: Cheatsheets
 
     docker
-    tmux
     sftp
-    sshfs
+    tmux
+    conda_env    
     seadragon
-    virtualenv
-    conda_env
 
 
 .. _inspect-docs:
@@ -34,7 +32,7 @@ organized by following four sections.
 
     system_info
     filesystem
-    file_info
+    apache
 
 
 .. _command-docs:
@@ -47,7 +45,6 @@ organized by following four sections.
     usermanagement
     process
     compression
-    apache
 
 
 .. _config-docs:
@@ -59,7 +56,6 @@ organized by following four sections.
     gitcfg
     ssh
     bashrc
-    fstab
     git_ignore
     python_header
 
