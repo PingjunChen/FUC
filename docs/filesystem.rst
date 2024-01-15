@@ -1,16 +1,15 @@
 filesystem
 ========
 
-Get number of all files
+Check specifc lines inside a text file
 --------
-When number of file is small, less than 10, 000
 
-:code:`$ ls -ls *.<ext> | wc -l`
+:code:`$ sed -n <start_line_num>:<end_line_num>p <text_file>`
 
-When more than 10, 000 files
+Find files contain specifc text
+--------
 
-:code:`$ find -type f -name '*.<ext>'  | wc -l`
-
+:code:`$ grep -rin <text> .`
 
 Storage usage
 --------
@@ -42,3 +41,14 @@ Delete file/directory recursively in subdirectories
 --------
 
 :code:`$ find . -name <file/directory> -exec rm -rf {} \;`
+
+Get number of all files
+--------
+When number of file is small, less than 10, 000
+
+:code:`$ ls -ls *.<ext> | wc -l`
+
+When more than 10, 000 files
+
+:code:`$ find -type f -name '*.<ext>'  | wc -l`
+
