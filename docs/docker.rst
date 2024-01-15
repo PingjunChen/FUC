@@ -44,14 +44,21 @@ Start container
 
 .. code-block:: bash
 
-    $ docker run -it --restart always --name <container_name> <image_name>:[tag_name]
+    $ docker run -it --name <container_name> <image_name>:[tag_name]
     Options:
-        -v <local_dir>:<docker_dir>:ro            # map local directory to docker
-        --runtime=nvidia                          # expose NVIDIA GPUs
-        -e NVIDIA_VISIBLE_DEVICES=5               # cuda device setting
-        --shm-size 16G                            # set size of shared memory
         --rm                                      # remove container file system when exits
+        --restart always                          # always restart the container if it stops.
+        -v <local_dir>:<docker_dir>:ro            # map local directory to docker
+        --user $(id -u):$(id -g)                  # set user the same as local machine
+        --shm-size 32G                            # set size of shared memory
+        --cpuset-cpus 10-20                       # set cpus to use
+        --gpus '"device=1"'                       # set gpu to use
 
+Attach existing container
+
+.. code-block:: bash
+
+    $ docker exec -it <container_id> bash
 
 Copy files
 
