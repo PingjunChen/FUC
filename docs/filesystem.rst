@@ -27,6 +27,18 @@ Check size of all subdirectories
 
 :code:`$ du -hs *`
 
+Sync folder A into folder B
+--------
+
+.. code-block:: bash
+
+    $ rsync -avu --delete folderA_path folderB_path`
+    Options:
+        -a                                        # sync preserving all filesystem attributes
+        -v                                        # run verbosely
+        -u                                        # only copy files with a newer modification time 
+        --delete                                  # delete the files in target folder that do not exist in the source
+
 Searches directory recursively in subdirectories
 --------
 
