@@ -20,8 +20,10 @@ organized by following four sections.
     docker
     sftp
     tmux
+    screen
+    seadragon    
     conda_env    
-    seadragon
+
 
 
 .. _inspect-docs:
@@ -30,9 +32,8 @@ organized by following four sections.
     :maxdepth: 2
     :caption: Inspections
 
-    system_info
     filesystem
-    apache
+    system_info
 
 
 .. _command-docs:
@@ -42,9 +43,9 @@ organized by following four sections.
     :caption: Commands
 
     gitcmd
-    usermanagement
     process
     compression
+    usermanagement
 
 
 .. _config-docs:
