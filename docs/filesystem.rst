@@ -54,7 +54,7 @@ Searches file recursively in subdirectories
 Delete file/directory recursively in subdirectories
 --------
 
-:code:`$ find . -name <file/directory> -exec rm -rf {} \;`
+:code:`$ find . -name <file/directory> -exec rm -rf {} \\;`
 
 Get number of all files
 --------
