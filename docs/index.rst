@@ -23,8 +23,7 @@ organized by following four sections.
     screen
     seadragon    
     conda_env
-    dl_env    
-
+    dl_env
 
 
 .. _inspect-docs:
@@ -34,7 +33,7 @@ organized by following four sections.
     :caption: Inspections
 
     filesystem
-    system_info
+    os_system
 
 
 .. _command-docs:
