@@ -22,7 +22,8 @@ organized by following four sections.
     tmux
     screen
     seadragon    
-    conda_env    
+    conda_env
+    dl_env    
 
 
 
