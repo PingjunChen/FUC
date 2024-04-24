@@ -1,4 +1,4 @@
-deep learning env
+dl env
 ========
 
 Check PyTorch GPU 
