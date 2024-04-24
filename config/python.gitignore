@@ -1,10 +1,15 @@
 # File
+.DS_Store
 .remote-sync.json
 
 # Folder
-
-# data
+._*
+Data/
 data/
+Archive/
+archive/
+Zoo/
+zoo/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
