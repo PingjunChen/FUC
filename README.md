@@ -8,7 +8,7 @@ This repo covers most commonly used cheatsheets, commands, and configs for Linux
 
 ## Configurations
 * [.bashrc configuration](config/bashrc.config)
-* [python header template](config/python_head.py)
+* [python header template](config/python_header.py)
 * [python gitignore template](config/python.gitignore)
 * [ssh login server without password](config/ssh_login_no_passwd.md)
 
