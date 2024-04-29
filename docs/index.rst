@@ -42,6 +42,7 @@ organized by following four sections.
     :maxdepth: 2
     :caption: Commands
 
+    k8s
     gitcmd
     process
     compression
