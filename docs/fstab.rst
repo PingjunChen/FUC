@@ -12,9 +12,9 @@ Add following line to the end of **fstab** file.
 
 Following are two examples:
 
-:code:`/dev/sdc1 /data/.data1 auto auto,user,rw 0 0`
+:code:`/dev/sdb1 /data/.data1 auto auto,user,rw 0 0`
 
-:code:`/dev/sdd1 /data/.data2 auto auto,user,rw 0 0`
+:code:`/dev/sdc1 /data/.data2 auto auto,user,rw 0 0`
 
 Join partitions
 --------
