@@ -25,7 +25,7 @@ Delete remote branch
 :code:`$ git push <remote_name> --delete <branch_name>`
 
 
-Tag
+Tag version
 --------
 
 Add tag to current submit
