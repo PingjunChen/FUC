@@ -1,6 +1,18 @@
 git command
 ========
 
+Show difference
+--------
+
+On modified file
+
+:code:`$ git diff <file_path>`
+
+On staged file
+
+:code:`$ git diff --staged <file_path>`
+
+
 Delete branch
 --------
 
@@ -11,6 +23,7 @@ Delete local branch
 Delete remote branch
 
 :code:`$ git push <remote_name> --delete <branch_name>`
+
 
 Tag
 --------
