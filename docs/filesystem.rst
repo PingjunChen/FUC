@@ -1,31 +1,40 @@
 filesystem
 ========
 
-Check specifc lines inside a text file
+System information
 --------
 
-:code:`$ sed -n <start_line_num>:<end_line_num>p <text_file>`
+Check CPU cores
 
-Find files contain specifc text
---------
+:code:`$ lscpu`
 
-:code:`$ grep -rin <text> .`
+Check memory
 
-Storage usage
---------
+:code:`$ free -h`
 
 Check disk partition usage
 
 :code:`$ df -h`
+
+Directory/File information
+--------
 
 Check the size of a directory
 
 :code:`$ du -hs <directory>`
 
 Check size of all subdirectories
---------
 
 :code:`$ du -hs *`
+
+Check specifc lines inside a text file
+
+:code:`$ sed -n <start_line_num>:<end_line_num>p <text_file>`
+
+Find files contain specifc text
+
+:code:`$ grep -rin <text> .`
+
 
 Sync folder A into folder B
 --------
