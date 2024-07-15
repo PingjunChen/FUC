@@ -1,37 +1,23 @@
 filesystem
 ========
 
-System information
---------
-
-Check CPU cores
-
-:code:`$ lscpu`
-
-Check memory
-
-:code:`$ free -h`
-
-Check disk partition usage
-
-:code:`$ df -h`
-
-Directory/File information
---------
-
 Check the size of a directory
+--------
 
 :code:`$ du -hs <directory>`
 
 Check size of all subdirectories
+--------
 
 :code:`$ du -hs *`
 
 Check specifc lines inside a text file
+--------
 
 :code:`$ sed -n <start_line_num>:<end_line_num>p <text_file>`
 
 Find files contain specifc text
+--------
 
 :code:`$ grep -rin <text> .`
 
