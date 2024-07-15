@@ -16,3 +16,16 @@ Shutdown system
 :code:`$ sudo halt`
 
 
+CPU cores
+--------
+:code:`$ lscpu`
+
+
+Memory info
+--------
+:code:`$ free -h`
+
+Disk partition usage
+--------
+:code:`$ df -h`
+
