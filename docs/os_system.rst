@@ -3,17 +3,7 @@ os system
 
 Check ubuntu version
 --------
-:code:`$ lsb_release -a`
-
-
-Restart system
---------
-:code:`$ sudo reboot`
-
-
-Shutdown system
---------
-:code:`$ sudo halt`
+:code:`$ cat /etc/os-release`
 
 
 CPU cores
@@ -21,11 +11,33 @@ CPU cores
 :code:`$ lscpu`
 
 
+GPU info
+--------
+:code:`$ nvidia-smi`
+
+
 Memory info
 --------
 :code:`$ free -h`
 
+
 Disk partition usage
 --------
 :code:`$ df -h`
+
+
+Shutdown system
+--------
+:code:`$ sudo halt`
+
+
+Restart system
+--------
+:code:`$ sudo reboot`
+
+
+
+
+
+
 
