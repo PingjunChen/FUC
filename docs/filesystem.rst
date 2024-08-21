@@ -51,6 +51,8 @@ Delete file/directory recursively in subdirectories
 
 :code:`$ find . -name <file/directory> -exec rm -rf {} \\;`
 
+:code:`$ find . -name "._*" -exec rm -rf {} \;` # example
+
 Get number of all files
 --------
 When number of file is small, less than 10, 000
