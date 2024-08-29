@@ -53,6 +53,8 @@ Delete file/directory recursively in subdirectories
 
 :code:`$ find . -name "._*" -exec rm -rf {} \\;` # example
 
+:code:`$ find . -name ".DS_Store" -exec rm -rf {} \\;` # example
+
 Get number of all files
 --------
 When number of file is small, less than 10, 000
