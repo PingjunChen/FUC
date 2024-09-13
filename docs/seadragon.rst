@@ -29,6 +29,7 @@ Load Modules
 
 .. code-block:: bash
 
+    $ module load kubectl
     $ module load singularity/3.5.2
     $ module load cuda10.1/toolkit/10.1.243
 
