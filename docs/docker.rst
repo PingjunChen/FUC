@@ -5,7 +5,7 @@ sysadmins to build, ship, and run distributed applications, whether on laptops,
 data center VMs, or the cloud.
 
 
-Docker Installation
+Docker installation
 --------
 
 .. code-block:: bash
@@ -13,6 +13,14 @@ Docker Installation
     $ sudo apt install docker.io        # install docker
     $ sudo usermod -aG docker $USER     # add user to docker group
 
+
+Docker configuration
+--------
+
+.. code-block:: bash
+
+    $ cat /etc/docker/daemon.json       # check daemon configuration
+    $ sudo systemctl status docker      # check docker active statu
 
 Image management
 --------
