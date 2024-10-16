@@ -13,12 +13,12 @@ Check shell
 
 Change shell to bash
 --------
-:code:`$ echo $SHELL`
+:code:`$ chsh -s /bin/bash`
 
 
 Check IP address
 --------
-:code:`$ echo $SHELL`
+:code:`$ hostname -I`
 
 
 CPU cores
