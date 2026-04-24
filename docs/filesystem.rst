@@ -65,3 +65,7 @@ When more than 10, 000 files
 
 :code:`$ find -type f -name '*.<ext>'  | wc -l`
 
+Move large number of files
+--------
+:code:`$ find source_path -type f -name '*.<ext>' | xargs -0 mv -t destination_path`
+
