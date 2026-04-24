@@ -22,7 +22,7 @@ Find files contain specifc text
 :code:`$ grep -rin <text> .`
 
 
-Sync folder A into folder B
+Sync folderA into folderB
 --------
 
 .. code-block:: bash
