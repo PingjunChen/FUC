@@ -51,9 +51,9 @@ Delete file/directory recursively in subdirectories
 
 :code:`$ find . -name <file/directory> -exec rm -rf {} \\;`
 
-:code:`$ find . -name "._*" -exec rm -rf {} \\;` # example
+:code:`$ find . -name '._*' -exec rm -rf {} \\;` # example
 
-:code:`$ find . -name ".DS_Store" -exec rm -rf {} \\;` # example
+:code:`$ find . -name '.DS_Store' -exec rm -rf {} \\;` # example
 
 Get number of all files
 --------
@@ -67,5 +67,5 @@ When more than 10, 000 files
 
 Move large number of files
 --------
-:code:`$ find source_path -type f -name '*.<ext>' | xargs -0 mv -t destination_path`
+:code:`$ find src_directory/ -type f -name '*.<ext>' -exec mv {} dst_directory \;`
 
